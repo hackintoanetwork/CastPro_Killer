@@ -53,7 +53,8 @@ def dos3():
 
 
 def helper():
-    print("[ COMMAND ]\n")
+    print("")
+    print("\033[96m[ COMMAND ]\n")
     print("\033[96mmenu \033[0m: Go to Menu")
     print("\033[96mguide \033[0m: Go to Guide")
     print("\033[96msetup \033[0m: Go to Setup")
@@ -79,6 +80,7 @@ def helper():
     print("\033[96mmute \033[0m: Mute Volume")
     print("\033[96mclear \033[0m: Clear Screen")
     print("\033[96mexit \033[0m: Exit the program")
+    print("")
 
 
 if __name__ == "__main__":
